@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441455888799",
+    "project_id": "medease-946d4",
+    "storage_bucket": "medease-946d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441455888799:android:964c24668926cd0b7bd5aa",
+        "android_client_info": {
+          "package_name": "com.example.medease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441455888799-dlpb5pnfecot15000k2t67dd7brp0nps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcUEr62ctqHlZ5Jb5dn0oL59BaRQW3X4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441455888799-dlpb5pnfecot15000k2t67dd7brp0nps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

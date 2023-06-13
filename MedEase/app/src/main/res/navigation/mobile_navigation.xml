@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.medease.ui.FindADoctorFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_find_a_doctor" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.medease.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_doctor_home"
+        android:name="com.example.medease.ui.DoctorHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_doctor_home" />
+
+    <fragment
+        android:id="@+id/nav_shop"
+        android:name="com.example.medease.ui.ShopFragment"
+        android:label="@string/menu_shop"
+        tools:layout="@layout/fragment_shop" />
+
+    <fragment
+        android:id="@+id/nav_myCart"
+        android:name="com.example.medease.ui.MyCartFragment"
+        android:label="@string/menu_shop"
+        tools:layout="@layout/fragment_my_cart" />
+
+    <fragment
+        android:id="@+id/nav_viewOrders"
+        android:name="com.example.medease.ui.ViewOrderFragment"
+        android:label="@string/menu_shop"
+        tools:layout="@layout/fragment_view_order" />
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.medease.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_myAppointment"
+        android:name="com.example.medease.ui.MyAppointmentFragment"
+        android:label="MyAppointment"
+        tools:layout="@layout/fragment_my_appointment" />
+
+    <fragment
+        android:id="@+id/nav_searchShop"
+        android:name="com.example.medease.ui.SearchShopFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search_shop" />
+</navigation>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DoctorAppointment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/amp_blue">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userimage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            tools:srcCompat="@tools:sample/avatars"
+            app:civ_border_color="@color/black"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:text="Doctor Name"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/userfield"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="63dp"
+            android:text="Field name"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/amp_transparent"
+        android:drawableRight="@drawable/ic_calender"
+        android:drawableTint="@color/black"
+        android:text="Select Date"
+
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+
+        android:id="@+id/in_date"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="195dp"
+        android:text="MM/DD/YYYY"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+/>
+
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/amp_transparent"
+        android:drawableRight="@drawable/ic_clock"
+        android:drawableTint="@color/black"
+        android:text="Select Time"
+        android:textColor="@color/black" />
+
+    <TextView
+
+        android:id="@+id/in_time"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="345dp"
+        android:text="MM/DD/YYYY"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/enterbutton"
+        android:text="Enter"
+        android:layout_marginStart="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/calendarimage"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="235dp"
+        android:src="@drawable/ic_calender" />
+    <TextView
+        android:id="@+id/calendertextview"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="240dp"
+        android:text="0"
+        android:textColor="#F60606"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group"
+        android:layout_width="409dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="65dp"
+        android:checkableBehavior="single"
+        app:chipSpacingHorizontal="8dp"
+        app:chipSpacingVertical="8dp" />
+</RelativeLayout>

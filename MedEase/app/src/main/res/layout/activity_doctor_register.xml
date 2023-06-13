@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorRegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:layout_alignParentTop="true"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/registemlottie" />
+
+
+
+            <EditText
+                android:id="@+id/editText_register_username"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Username"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="8dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/black"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/custom_edittext"
+                />
+
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:layout_marginTop="13dp"
+                android:textSize="18sp"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonbackground"
+                />
+
+
+
+            <EditText
+                android:id="@+id/editText_age"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Age"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonbackground"
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="#171616"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:layout_marginTop="13dp"
+                android:textStyle="bold"
+                android:padding="6dp" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radio_group_gender">
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Female"
+                    android:textSize="16sp"
+                    android:textColor="#555555"/>
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:textColor="#555555"/>
+            </RadioGroup>
+
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" E-mail"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:layout_marginTop="13dp"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonbackground"
+                />
+
+
+            <EditText
+                android:id="@+id/editText_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Mobile Number"
+                android:inputType="phone"
+                android:drawableLeft="@drawable/baseline_dialpad_24"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginTop="13dp"/>
+
+            <Spinner
+                android:id="@+id/SpinnerDoctorSpeciality"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <EditText
+                android:id="@+id/editText_experience"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Experience"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginTop="13dp"/>
+
+            <EditText
+                android:id="@+id/editText_qualification"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Qualification"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginTop="13dp"/>
+
+            <EditText
+                android:id="@+id/editText_practise"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Currently Practising At..."
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="13dp"/>
+
+            <EditText
+                android:id="@+id/editText_location"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint=" Location Of Practising Site"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                android:padding="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginTop="13dp"/>
+
+
+            <Button
+                android:id="@+id/registeruserbutton"
+                android:layout_width="198dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#E91E63"
+                android:text="Register"
+                android:textSize="16sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

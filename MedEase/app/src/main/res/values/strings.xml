@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MedEase</string>
+    <string-array name="DoctorSpeciality">
+        <item>Enter your Speciality</item>
+        <item>Dentist</item>
+        <item>Cardiologist</item>
+        <item>Pulmonologist</item>
+        <item>Opthalmologist</item>
+        <item>Gynecologist</item>
+    </string-array>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_shop">Shop</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_chat">Chat</string>
+
+    //Headings
+    <string name="heading_one">Chat Feature with Video calling</string>
+    <string name="heading_two">Doctor Appointment</string>
+    <string name="heading_three"> Consult Your Doctor</string>
+    <string name="heading_fourth"> E-commerce </string>
+
+
+    //Description
+    <string name="desc_one">Have virtual consultations with healthcare professionals through video calls.</string>
+    <string name="desc_two">schedule appointments with doctors or healthcare professionals.</string>
+    <string name="desc_three">Get professional guidance through virtual consultations with your doctor.</string>
+    <string name="desc_fourth">Get access to a comprehensive selection of medical supplies and healthcare products through our online marketplace</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
